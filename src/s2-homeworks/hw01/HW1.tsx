@@ -15,14 +15,14 @@ import avatar from './avatar.png'
 
 // нужно создать правильный тип вместо any
 export type MessageType = {
-    id: Number
+    id: number
     user: {
-        avatar: String
-        name: String
+        avatar: string
+        name: string
     }
     message: {
-        text: String
-        time: String
+        text: string
+        time: string
     }
 }
 
