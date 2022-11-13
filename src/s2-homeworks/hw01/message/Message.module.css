@@ -62,7 +62,8 @@
 
 .messageText {
     color: #fff;
-    font-family: inherit
+    font-family: inherit;
+    white-space: normal
 }
 
 .time {

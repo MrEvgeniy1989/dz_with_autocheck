@@ -58,7 +58,8 @@
 }
 
 .friendMessageText {
-    font-family: inherit
+    font-family: inherit;
+    white-space: normal
 }
 
 .friendTime {
