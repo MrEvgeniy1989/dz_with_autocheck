@@ -37,12 +37,12 @@ const Greeting: React.FC<GreetingPropsType> = (
             </div>
 
             <div className={s.inputAndButtonContainer}>
-                <div>
+                <div className={s.inputBlock}>
                     <input
                         id={'hw3-input'}
                         value={name}
                         onChange={setNameCallback}
-                        className={inputClass}
+                        className={`${inputClass} ${s.input}`}
                         onKeyDown={onEnter}
                         onBlur={onBlur}
                     />
