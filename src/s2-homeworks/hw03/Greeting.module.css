@@ -4,16 +4,22 @@
 
 .inputAndButtonContainer {
     display: flex;
+    flex-wrap: wrap;
+    row-gap: 12px;
     column-gap: 12px;
+}
+
+.inputAndButtonContainer:not(:last-child) {
+    margin-bottom: 10px;
 }
 
 .error {
     display: inline-block;
-    color: #CC0000;
+    color: #CC0000;;
 }
 
 .inputBlock {
-    flex: 0 0 372px;
+    flex: 0 1 372px;
 }
 
 .input {
@@ -51,10 +57,6 @@
     transition: all .2s ease;
 }
 
-.button:focus {
-    background: #00468f;
-}
-
 .button:hover {
     background: #00468f;
 }
@@ -65,7 +67,6 @@
 
 .button:disabled {
     opacity: 0.5;
-    pointer-events:none;
 }
 
 .text {

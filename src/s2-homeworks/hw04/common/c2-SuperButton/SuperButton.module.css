@@ -1,5 +1,5 @@
 .button {
-    width: 149px;
+    width: 132px;
     height: 30px;
     border-radius: 3px;
     border: inherit;
@@ -10,8 +10,12 @@
     transition: all .3s ease;
 }
 
+
+.button:active:before{
+    right: 0%;
+}
+
 .disabled {
-    width: 133px;
     background: #004D99;
     opacity: 0.5;
     color: #002E5C;
@@ -46,16 +50,6 @@
 .secondary:hover {
     background: #0066CC;
     color: #ffffff;
-}
-
-
-.default:active {
-}
-
-.secondary:active {
-}
-
-.red:active {
 }
 
 .button:disabled {

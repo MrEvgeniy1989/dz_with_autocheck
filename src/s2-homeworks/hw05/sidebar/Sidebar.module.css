@@ -46,7 +46,6 @@
     transition: all 0.2s ease;
 }
 
-
 nav a::after {
     content: '';
     position: absolute;
